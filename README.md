@@ -7,4 +7,4 @@ A frame creates the window for the game, and a separate panel handles everything
 
 ADTs such as linked lists where implemented to hold multiple objects of the same type, this was particularlly useful to create multiple lasers and bombs at the same time.
 
-The KeyLister interfance approach was chosen to receive user input, the game is played with the arrow and space keys.
+The KeyListener interfance approach was chosen to receive user input, the game is played with the arrow and space keys.
