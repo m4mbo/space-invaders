@@ -15,3 +15,6 @@ The KeyListener interfance approach was chosen to receive user input, the game i
 ``` 
 ./run.sh
 ```
+## Credits
+
+* [m4mbo](https://github.com/m4mbo) - Code and pixel art.
