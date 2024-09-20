@@ -10,6 +10,8 @@ ADTs such as linked lists where implemented to hold multiple objects of the same
 
 The KeyListener interfance approach was chosen to receive user input, the game is played with the arrow and space keys.
 
+![ppy](res/sample.gif)
+
 ## Build and Run
 
 ``` 
