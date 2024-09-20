@@ -1,5 +1,3 @@
-package spaceInvaders;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -46,17 +44,17 @@ public class SpacePanel extends JPanel implements Runnable, KeyListener{
 	    addKeyListener(this);															// adding a key listener
 	    setFocusable(true);																// setting focusable to true to receive keyboard input
 	    
-	    backgroundImage = new ImageIcon("Images/starrysky.png").getImage();				// creating a new background image with png file
-	    title = new ImageIcon("Images/Title.png").getImage();							// creating a new title image with png file
-	    gameover = new ImageIcon("Images/Gameover.png").getImage();						// creating a new game over image with png file
+	    backgroundImage = new ImageIcon("../res/starrysky.png").getImage();				// creating a new background image with png file
+	    title = new ImageIcon("../res/Title.png").getImage();							// creating a new title image with png file
+	    gameover = new ImageIcon("../res/Gameover.png").getImage();						// creating a new game over image with png file
 	    
 	    score = new Score();															// initializing new score object
-	    lives = new Lives(new ImageIcon("Images/Heart.png").getImage());				// creating a new lives object with heart png file as parameter
+	    lives = new Lives(new ImageIcon("../res/Heart.png").getImage());				// creating a new lives object with heart png file as parameter
 	    
-	    player = new Player((PANEL_WIDTH/2) - 30, (PANEL_HEIGHT - 65), 10, new ImageIcon("Images/Player.png").getImage());			// creating a new player with its position and png file
+	    player = new Player((PANEL_WIDTH/2) - 30, (PANEL_HEIGHT - 65), 10, new ImageIcon("../res/Player.png").getImage());			// creating a new player with its position and png file
 	    lasergun = new LaserGun();														// creating new laser gun
 	    bomblauncher = new BombLauncher();												// creating new bomb launcher
-	    alienhorde = new AlienHorde(new ImageIcon("Images/Alien.gif").getImage());		// creating new alien horde with alien gif file
+	    alienhorde = new AlienHorde(new ImageIcon("../res/Alien.gif").getImage());		// creating new alien horde with alien gif file
 	   
 	    
 	    gameThread = new Thread(this);													// create and

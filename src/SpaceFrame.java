@@ -1,5 +1,3 @@
-package spaceInvaders;
-
 import javax.swing.JFrame;
 import java.awt.*;
 

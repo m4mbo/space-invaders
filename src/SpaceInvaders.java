@@ -1,5 +1,3 @@
-package spaceInvaders;
-
 // creating a main method
 
 public class SpaceInvaders {

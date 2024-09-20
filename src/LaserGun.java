@@ -1,5 +1,3 @@
-package spaceInvaders;
-
 import java.awt.Graphics;
 import java.util.LinkedList;
 
