@@ -1,6 +1,10 @@
 # Space Invaders: Java
 This is my attempt on a space invaders game using Java GUI, specifically the swing package. 
 
+<div align="center">
+  <img src="res/sample.gif" alt="demo" width="300"/>
+</div>
+
 ## Approach
 Every game entity was treated as a different object (player, alien, laser, bomb, etc.). The concepts of inheritance was pretty useful for this matter, as these all inherit the properties of what was defined as an "Entity" class, which contained a 2D position and a speed value (How many pixels will each object move per iteration).
 
@@ -22,5 +26,3 @@ Refer to the [documentation](https://github.com/m4mbo/space-invaders/tree/main/d
 ## Credits
 
 * [m4mbo](https://github.com/m4mbo) - Code and pixel art.
-
-![ppy](res/sample.gif)
